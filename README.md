@@ -106,7 +106,7 @@ SELECT SUM(gaji) AS ttl_gaji FROM pegawai;
 ```
 SELECT AVG(gaji) AS mean_gaji FROM pegawai;
 ```
-
+.
 ***Output :***
 
 ![Cuplikan layar 2024-05-24 234723](https://github.com/Ws529/Basis-data-Pertemuan11/assets/147570983/33b31a54-e2c3-45b3-828d-b03da9f7be91)
