@@ -195,7 +195,8 @@ SELECT species, COUNT(*) AS jmlh_hewan FROM hewan GROUP BY species;
 
 ***Output :***
 
-![Cuplikan layar 2024-05-25 003626](https://github.com/Ws529/Basis-data-Pertemuan11/assets/147570983/7e900594-d831-4680-b294-e3e16230f7eb)
+
+![Cuplikan layar 2024-05-25 004404](https://github.com/Ws529/Basis-data-Pertemuan11/assets/147570983/caaef04f-d9c4-4ef4-8ade-c4ce05405905)
 
 
 **3. Tampilkan jumlah hewan berdasarkan jenis kelamin**
@@ -206,8 +207,8 @@ SELECT sex, COUNT(*) AS jmlh_hewan FROM hewan GROUP BY sex;
 
 ***Output :***
 
-![Cuplikan layar 2024-05-25 003713](https://github.com/Ws529/Basis-data-Pertemuan11/assets/147570983/74adde18-6300-49c2-9872-0d91f94e23a4)
 
+![Cuplikan layar 2024-05-25 003626](https://github.com/Ws529/Basis-data-Pertemuan11/assets/147570983/7e900594-d831-4680-b294-e3e16230f7eb)
 
 **4. Tampilkan jumlah hewan berdasarkan spesies dan jenis kelamin**
 
@@ -217,7 +218,7 @@ SELECT species, sex, COUNT(*) AS jumlah_hewan FROM hewan GROUP BY species, sex;
 
 ***Output :***
 
-![alt text](picture/2.5.PNG)
+![Cuplikan layar 2024-05-25 003713](https://github.com/Ws529/Basis-data-Pertemuan11/assets/147570983/74adde18-6300-49c2-9872-0d91f94e23a4)
 
 **5. Tampilkan jumlah hewan berdasarkan spesis (cat dan dog saja) dan jenis kelamin**
 
