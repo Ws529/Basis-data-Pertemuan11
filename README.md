@@ -42,7 +42,7 @@ INSERT INTO pegawai VALUES
 
 ***Output :***
 
-![alt text](picture/1.1.PNG)
+![Cuplikan layar 2024-05-24 234139](https://github.com/Ws529/Basis-data-Pertemuan11/assets/147570983/30de5d3c-8b22-4893-94ca-7f2489ca2452)
 
 ## Tugas Praktikum
 
@@ -54,7 +54,6 @@ SELECT*FROM pegawai WHERE gaji NOT IN (2000000, 1250000);
 
 ***Output :***
 
-![Cuplikan layar 2024-05-24 234139](https://github.com/Ws529/Basis-data-Pertemuan11/assets/147570983/30de5d3c-8b22-4893-94ca-7f2489ca2452)
 
 
 **2. Tampilkan pegawai yang tunjangannya NULL!**
