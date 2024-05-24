@@ -54,7 +54,8 @@ SELECT*FROM pegawai WHERE gaji NOT IN (2000000, 1250000);
 
 ***Output :***
 
-![alt text](picture/1.2.PNG)
+![Cuplikan layar 2024-05-24 234139](https://github.com/Ws529/Basis-data-Pertemuan11/assets/147570983/30de5d3c-8b22-4893-94ca-7f2489ca2452)
+
 
 **2. Tampilkan pegawai yang tunjangannya NULL!**
 
@@ -64,7 +65,8 @@ SELECT*FROM pegawai WHERE tunjangan IS NULL;
 
 ***Output :***
 
-![alt text](picture/1.3.PNG)
+![Cuplikan layar 2024-05-24 234332](https://github.com/Ws529/Basis-data-Pertemuan11/assets/147570983/730810ca-a2fc-4b13-a0d3-50be12962dd2)
+
 
 **3. Tampilkan pegawai yang tunjangannya tidak NULL!**
 
@@ -73,8 +75,9 @@ SELECT*FROM pegawai WHERE tunjangan IS NOT NULL;
 ```
 
 ***Output :***
-f
-![alt text](picture/1.4.PNG)
+
+![Cuplikan layar 2024-05-24 234425](https://github.com/Ws529/Basis-data-Pertemuan11/assets/147570983/fd0127a1-8e4a-4123-816b-e5e469a469f7)
+
 
 **4. Tampilkan/hitung jumlah baris/record tabel pegawai!**
 
@@ -83,8 +86,9 @@ SELECT COUNT(*) AS jmlh_pegawai FROM pegawai;
 ```
 
 ***Output :***
+![Cuplikan layar 2024-05-24 234513](https://github.com/Ws529/Basis-data-Pertemuan11/assets/147570983/578af578-38ee-4593-8f30-55bfefd6e292)
 
-![alt text](picture/1.5.PNG)
+
 
 **5. Tampilkan/hitung jumlah total gaji di tabel pegawai!**
 
@@ -94,7 +98,8 @@ SELECT SUM(gaji) AS ttl_gaji FROM pegawai;
 
 ***Output :***
 
-![alt text](picture/1.6.PNG)
+![Cuplikan layar 2024-05-24 234612](https://github.com/Ws529/Basis-data-Pertemuan11/assets/147570983/98b3f23d-8d30-4762-9bf5-3e79062a4299)
+
 
 **6. Tampilkan/hitung rata-rata gaji pegawai!**
 
@@ -104,7 +109,8 @@ SELECT AVG(gaji) AS mean_gaji FROM pegawai;
 
 ***Output :***
 
-![alt text](picture/1.7.PNG)
+![Cuplikan layar 2024-05-24 234723](https://github.com/Ws529/Basis-data-Pertemuan11/assets/147570983/33b31a54-e2c3-45b3-828d-b03da9f7be91)
+
 
 **7. Tampilkan gaji terkecil!**
 
@@ -114,7 +120,8 @@ SELECT MIN(gaji) AS terkecil FROM pegawai;
 
 ***Output :***
 
-![alt text](picture/1.8.PNG)
+![Cuplikan layar 2024-05-24 234757](https://github.com/Ws529/Basis-data-Pertemuan11/assets/147570983/d7c180df-5550-4264-8d82-d3576fd59427)
+
 
 **8. Tampilkan gaji terbesar!**
 
@@ -124,7 +131,8 @@ SELECT MAX(gaji) AS terbesar FROM pegawai;
 
 ***Output :***
 
-![alt text](picture/1.9.PNG)
+![Cuplikan layar 2024-05-24 234834](https://github.com/Ws529/Basis-data-Pertemuan11/assets/147570983/4a1a88c5-e0e5-4a92-8c28-98d2757e6577)
+
 
 # Soal Latihan Praktikum ( Hewan )
 
