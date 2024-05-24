@@ -153,7 +153,8 @@ CREATE TABLE hewan (
 
 ***Output :***
 
-![alt text](picture/2.PNG)
+![Cuplikan layar 2024-05-25 001539](https://github.com/Ws529/Basis-data-Pertemuan11/assets/147570983/f56a52f0-f040-4d5e-b1fb-43ed86dea83e)
+
 
 ```
 INSERT INTO hewan VALUES
@@ -170,7 +171,8 @@ INSERT INTO hewan VALUES
 
 ***Output :***
 
-![alt text](picture/2.1.PNG)
+![Cuplikan layar 2024-05-25 003408](https://github.com/Ws529/Basis-data-Pertemuan11/assets/147570983/33ab3913-ade1-4d29-b5c5-a9be03d144c0)
+
 
 ## Tugas Praktikum
 
@@ -182,7 +184,8 @@ SELECT owner, COUNT(*) AS jmlh_hewan FROM hewan GROUP BY owner;
 
 ***Output :***
 
-![alt text](picture/2.2.PNG)
+![Cuplikan layar 2024-05-25 003536](https://github.com/Ws529/Basis-data-Pertemuan11/assets/147570983/338392bd-3ecf-4254-9350-ee1e90b0ed26)
+
 
 **2. Tampilkan jumlah hewan berdasarkan spesies**
 
@@ -192,7 +195,8 @@ SELECT species, COUNT(*) AS jmlh_hewan FROM hewan GROUP BY species;
 
 ***Output :***
 
-![alt text](picture/2.3.PNG)
+![Cuplikan layar 2024-05-25 003626](https://github.com/Ws529/Basis-data-Pertemuan11/assets/147570983/7e900594-d831-4680-b294-e3e16230f7eb)
+
 
 **3. Tampilkan jumlah hewan berdasarkan jenis kelamin**
 
@@ -202,7 +206,8 @@ SELECT sex, COUNT(*) AS jmlh_hewan FROM hewan GROUP BY sex;
 
 ***Output :***
 
-![alt text](picture/2.4.PNG)
+![Cuplikan layar 2024-05-25 003713](https://github.com/Ws529/Basis-data-Pertemuan11/assets/147570983/74adde18-6300-49c2-9872-0d91f94e23a4)
+
 
 **4. Tampilkan jumlah hewan berdasarkan spesies dan jenis kelamin**
 
