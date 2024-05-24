@@ -230,7 +230,8 @@ GROUP BY species, sex;
 
 ***Output :***
 
-![alt text](picture/2.6.PNG)
+![Cuplikan layar 2024-05-25 005052](https://github.com/Ws529/Basis-data-Pertemuan11/assets/147570983/b77d9454-cdb9-4e10-a37c-2449702ef07d)
+
 
 **6. Tampilkan jumlah hewan berdasarkan jenis kelamin yang diketahui saja**
 
@@ -240,84 +241,9 @@ SELECT sex, COUNT(*) AS jumlah_hewan FROM hewan WHERE sex IS NOT NULL GROUP BY s
 
 ***Output :***
 
-![alt text](picture/2.7.PNG)
+![Cuplikan layar 2024-05-25 005247](https://github.com/Ws529/Basis-data-Pertemuan11/assets/147570983/71905696-b813-4a44-8385-99ac97518593)
 
-## Tulis semua perintah-perintah SQL percobaan di atas beserta outputnya!
 
-```
-CREATE DATABASE praktikum4;
-USE praktikum4;
-CREATE TABLE pegawai (
-    idpegawai VARCHAR (5) PRIMARY KEY,
-    nama_depan VARCHAR (10) NOT NULL,
-    nama_belakang VARCHAR (15) NOT NULL,
-    email VARCHAR (25) UNIQUE KEY,
-    telepon VARCHAR (15),
-    tgl_kontrak DATE,
-    id_job VARCHAR (5),
-    gaji INT,
-    tunjangan INT
-    );
-
-INSERT INTO pegawai VALUES
-    ('E001', 'Ferry', 'Gustiawan', 'ferry@yahoo.com', '07117059004', '2005-09-01', 'L0001', 2000000, 500000),
-	('E002', 'Aris', 'Ganiardi', 'aris@yahoo.com', '081312345678', '2006-09-01', 'L0002', 2000000, 200000),
-	('E003', 'Faiz', 'Ahnad', 'faiz@gmail.com', '081367384322', '2006-10-01', 'L0003', 1500000, NULL),
-	('E004', 'Emna', 'Bunton', 'emna@gmail.com', '081363484342', '2006-10-01', 'L0004', 1500000, 9),
-	('E005', 'Mike', 'Scoff', 'mike@plasa.com', '08163454555', '2007-09-01', 'L0005', 1250000, 9),
-	('E006', 'Lincoln', 'Burrows', 'linc@yahoo.com', '08527388432', '2008-09-01', 'L0006', 1750000, NULL);
-
-SELECT * FROM pegawai;
-
-SELECT * FROM pegawai WHERE gaji NOT IN (2000000, 1250000);
-
-SELECT * FROM pegawai WHERE tunjangan IS NULL;
-
-SELECT * FROM pegawai WHERE tunjangan IS NOT NULL;
-
-SELECT COUNT(*) AS jumlah_pegawai FROM pegawai;
-
-SELECT SUM(gaji) AS total_gaji FROM pegawai;
-
-SELECT AVG(gaji) AS rata_rata_gaji FROM pegawai;
-
-SELECT MIN(gaji) AS gaji_terkecil FROM pegawai;
-
-SELECT MAX(gaji) AS gaji_terbesar FROM pegawai;
-
-CREATE TABLE hewan (
-    id VARCHAR (5) PRIMARY KEY,
-    name VARCHAR (10) NOT NULL,
-    owner VARCHAR (10),
-    species VARCHAR (10),
-    sex enum('M', 'F')
-    );
-
-INSERT INTO hewan (id, name, owner, species, sex)
-VALUES ('p1', 'Puffball', 'Diane', 'Hamster', 'F'),
-       ('p2', 'Claws', 'Gwen', 'Cat', 'M'),
-       ('p3', 'Fluffy', 'Haro 1d', 'Cat', 'F'),
-       ('p4', 'Buffy', 'Haro 1d', 'Dog', 'F'),
-       ('p5', 'Fang', 'Benny', 'Dog', 'M'),
-       ('p6', 'Bowser', 'Diane', 'Dog', 'M'),
-       ('p7', 'Chirpy', 'Gwen', 'Bird', 'F'),
-       ('p8', 'Whistler', 'Gwen', 'Bird', NULL),
-       ('p9', 'Slim', 'Benny', 'Snake', 'M');
-
-SELECT * from hewan;
-
-SELECT owner, COUNT(*) AS jumlah_hewan FROM hewan GROUP BY owner;
-
-SELECT species, COUNT(*) AS jumlah_hewan FROM hewan GROUP BY species;
-
-SELECT sex, COUNT(*) AS jumlah_hewan FROM hewan GROUP BY sex;
-
-SELECT species, sex, COUNT(*) AS jumlah_hewan FROM hewan GROUP BY species, sex;
-
-SELECT species, sex, COUNT(*) AS jumlah_hewan FROM hewan WHERE species IN ('Cat', 'Dog') GROUP BY species, sex;
-
-SELECT sex, COUNT(*) AS jumlah_hewan FROM hewan WHERE sex IS NOT NULL GROUP BY sex;
-```
 
 ## Berikan Kesimpulan Anda !
 
@@ -334,4 +260,4 @@ Terdapat beberapa ***Query Filter*** yang ditemukan pada tugas praktikum 4 :
 - `MAX` adalah perintah yang digunakan untuk menampilkan nilai terbesar dari suatu kolom pada tabel.
 - Klausa `GROUP BY` berfungsi untuk mengelompokkan data berdasarkan field tertentu.
 
-## FINISH <img align="center" alt="Ikhsan-Python" height="40" width="45" src="https://em-content.zobj.net/source/microsoft-teams/337/student_1f9d1-200d-1f393.png"> <img align="center" alt="Ikhsan-Python" height="40" width="45" src="https://em-content.zobj.net/thumbs/160/twitter/348/flag-indonesia_1f1ee-1f1e9.png">
+## FINISH. <img align="center" alt="Ikhsan-Python" height="40" width="45" src="https://em-content.zobj.net/source/microsoft-teams/337/student_1f9d1-200d-1f393.png"> <img align="center" alt="Ikhsan-Python" height="40" width="45" src="https://em-content.zobj.net/thumbs/160/twitter/348/flag-indonesia_1f1ee-1f1e9.png">
